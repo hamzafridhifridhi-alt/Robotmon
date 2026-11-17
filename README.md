@@ -77,3 +77,15 @@ development-only sample traffic from PowerShell:
 Replace the example address with the IP printed on the central serial monitor.
 The script sends synthetic sample values and reads back data, status, alerts,
 and configuration; do not treat those readings as real sensor data.
+
+## GitHub Pages dashboard
+
+The workflow in `.github/workflows/pages.yml` builds the Figma dashboard and
+deploys it to GitHub Pages whenever `main` is updated. In the repository
+settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
+The site URL is `https://hamzafridhifridhi-alt.github.io/Robotmon/` after the
+first successful deployment.
+
+The hosted site provides the dashboard UI. Live sensor data is available when
+the UI can reach the ESP32 API on the same network; the GitHub-hosted page does
+not proxy the ESP32 API.
