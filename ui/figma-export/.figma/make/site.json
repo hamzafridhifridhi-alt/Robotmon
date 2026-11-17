@@ -1,0 +1,13 @@
+{
+  "title": "Robot Monitoring System",
+  "language": "en",
+  "description": "Local dashboard for robot gas, inertial, odometry, and alert monitoring.",
+  "description": "Monitor an industrial mobile robot’s gas, motion, and odometry data in real time, with alert history and system controls for robotics engineers.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
